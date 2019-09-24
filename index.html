@@ -8,30 +8,42 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
-    <!-- Navbar-->
-    <div class="container-fluid bg-primary">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary container-fluid">
-            <a class="navbar-brand" href="#">Bienvenido</a>
+    <!-- Navbar -->
+    <div class="container-fluid p-0 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark container-fluid" style="background-color: #294E99">
+            <a class="navbar-brand p-0" href="#">
+                <img src="https://img.icons8.com/color/48/000000/rockstar-games.png">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">¿Quien soy?</a>
-                <a class="nav-item nav-link" href="#">¿Quien sos?</a>
+                <a class="nav-item nav-link" href="#danisoy">¿Quien soy?</a>                
                 <a class="nav-item nav-link" href="#">Deja un saludito</a>
                 <div><a href="#" class="btn btn-danger">Contacto</a></div>
                 </div>
             </div>
         </nav>
     </div>
-    
+    <!-- Fin Navbar -->
+
+    <!-- Slider -->
+    <div class="container slider d-flex justify-content-center align-items-center text-white">
+        <div class="text-center">
+            <h1 class="display">Bienvenidos</h1>
+            <h3>Lincesos de las praderas</h3>
+        </div>
+    </div>
+    <!-- Fin Slider -->
+
     <!-- Articulo presentacion-->
-    <div class="container-fluid mt-4 mb-4">
+    <div class="container-fluid mt-4 mb-4" id="danisoy">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 d-inline p-2">
@@ -67,7 +79,7 @@
             <div class="col-2"></div>
         </div>    
     </div>
-    <div class="container ml-3 mr-2">
+    <div class="container align-self-center">
         <div class="row">
             <p>
             De Rossi se sumó a las categorías inferiores de Roma desde Ostia Mare, donde había jugado como delantero en el año 2000. 
@@ -93,7 +105,16 @@
             </p>
         </div>
     </div>
+    
+    <!-- Fin articulo de presentacion -->
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Saludito app js -->
 
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
